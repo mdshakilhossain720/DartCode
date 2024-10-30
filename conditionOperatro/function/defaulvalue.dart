@@ -11,11 +11,9 @@ void main() {
   add(10, 20, 30);
 }
 
-
-void add(int num1, int num2, [int num3=0]){
-   int sum;
+void add(int num1, int num2, [int num3 = 0]) {
+  int sum;
   sum = num1 + num2 + num3;
-   
-   print("The sum is $sum");
-}
 
+  print("The sum is $sum");
+}
